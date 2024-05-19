@@ -1,0 +1,1176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Idac</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<style></style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240519215943" />
+	<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" /></picture>
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="" data-goto-header data-goto=".featured" class="menu__link">Rentals</a></li>
+							<li class="menu__item"><a href="" data-goto-header data-goto=".top-categoties" class="menu__link">Categories</a></li>
+							<li class="menu__item"><a href="" data-goto-header data-goto=".metrics" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a href="" data-goto-header data-goto=".footer" class="menu__link">Contact</a></li>
+							<li class="menu__item"><a href="" data-goto-header data-goto=".articles" class="menu__link">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-da=" .menu__body,479.98" href="#" class="actions-header__sign-in _icon-user">
+						<span>Sign in</span>
+					</a>
+					<a href="#" class="actions-header__post-listing _icon-plus">
+						<span>Post Listing</span>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section data-watch class="hero">
+				<div class="hero__container">
+					<h1 class="hero__title">Discover Your <span>Perfect Rental</span></h1>
+					<div class="hero__subtitle">
+						<p>Rent Cars, Houses, and Items in Just a Few Clicks</p>
+					</div>
+					<div class="hero__bullets">
+						<div class="swiper-pagination"></div>
+					</div>
+					<form action="#" class="hero__form form-hero">
+						<div class="form-hero__left-side">
+							<div class="form-hero__item _icon-search-grey">
+								<input type="search" class="form-hero__input" placeholder="Search for cars, houses, and more..." />
+							</div>
+						</div>
+						<div class="form-hero__right-side">
+							<div class="form-hero__item _icon-navigation">
+								<select name="form[]" data-class-modif="form-hero__select">
+									<option value="1" selected>Select Location</option>
+									<option value="2">Kiev</option>
+									<option value="3">Lvov</option>
+									<option value="4">Lutsk</option>
+								</select>
+							</div>
+							<button type="submit" class="form-hero__button _icon-search-grey"><span>Search Now</span></button>
+						</div>
+					</form>
+				</div>
+				<div class="hero__slider swiper">
+					<div class="hero__wrapper swiper-wrapper">
+						<div class="hero__slide swiper-slide">
+							<div class="hero__img-ibg">
+								<picture><source srcset="img/hero/bg-image.webp" type="image/webp"><img src="img/hero/bg-image.jpg" alt="places" /></picture>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__img-ibg">
+								<picture><source srcset="img/hero/bg-image-2.webp" type="image/webp"><img src="img/hero/bg-image-2.jpg" alt="rides" /></picture>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__img-ibg">
+								<picture><source srcset="img/hero/bg-image-3.webp" type="image/webp"><img src="img/hero/bg-image-3.jpg" alt="things" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-threshold="0.2" class="top-categoties">
+				<div class="top-categoties__container">
+					<h2 class="top-categoties__title title">Browse From Top Categories</h2>
+					<div class="top-categoties__items">
+						<a href="#" class="top-categoties__item top-categoties__item_like _icon-like">Holiday Rentals</a>
+						<a href="#" class="top-categoties__item top-categoties__item_home _icon-home">Residential Spaces</a>
+						<a href="#" class="top-categoties__item top-categoties__item_compass _icon-compass">Event Spaces</a>
+						<a href="#" class="top-categoties__item top-categoties__item_dollar _icon-dollar">Commercial Properties</a>
+						<a href="#" class="top-categoties__item top-categoties__item_more _icon-more">More</a>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="featured">
+				<div class="featured__container">
+					<h2 class="featured__title title">Featured Listings</h2>
+					<nav class="featured__nav nav-featured">
+						<button class="nav-featured__item nav-featured__item--active">All items <span>(5125)</span></button>
+						<button class="nav-featured__item">Residential Spaces<span>(64)</span></button>
+						<button class="nav-featured__item">Sports Venues</button>
+						<button class="nav-featured__item">Meeting Spaces</button>
+						<button class="nav-featured__item">Vans & Buses</button>
+						<button class="nav-featured__item">Cars & SUVs</button>
+						<button class="nav-featured__item">Lorries & Industrial Vehicles</button>
+						<button class="nav-featured__item"><span class="_icon-arrow-down"></span></button>
+					</nav>
+
+					<div class="featured__content">
+						<div class="featured__tab featured__tab--active">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items">
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/02.webp" type="image/webp"><img src="img/feautured/02.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/03.webp" type="image/webp"><img src="img/feautured/03.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+								<article class="featured__item item-featured">
+									<span class="item-featured__for-rent">For Rent</span>
+									<a href="#" class="item-featured__image">
+										<picture><source srcset="img/feautured/01.webp" type="image/webp"><img src="img/feautured/01.jpg" alt="home" /></picture>
+									</a>
+									<div class="item-featured__body">
+										<div class="item-featured__subtitle">85,000 LKR<span>/Month</span></div>
+										<h3 class="item-featured__title">
+											<a href="#" class="item-featured__link-title"> Luxury villa in Rego Park </a>
+										</h3>
+										<div class="item-featured__description">
+											<span class="item-featured__bedrooms">3 Bedrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__bathrooms">2 Bathrooms</span>
+											<span class="item-featured__line"></span>
+											<span class="item-featured__square">2500 Square FT</span>
+										</div>
+									</div>
+									<div class="item-featured__author author-item-feautured">
+										<a href="#" class="author-item-feautured__image">
+											<picture><source srcset="img/feautured/author-01.webp" type="image/webp"><img src="img/feautured/author-01.png" alt="author" /></picture>
+										</a>
+										<div class="author-item-feautured__content">
+											<a href="#" class="author-item-feautured__name">Anne Liza</a>
+											<div class="author-item-feautured__property">
+												<p>Property Seller</p>
+											</div>
+										</div>
+										<a href="#" class="author-item-feautured__like _icon-heart"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="featured__tab">
+							<div class="featured__items"></div>
+						</div>
+						<button type="button" class="featured__button">Load More</button>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="metrics">
+				<div class="metrics__container">
+					<h2 class="metrics__title">Insights and Performance Metrics</h2>
+					<div class="metrics__cards">
+						<div class="metrics__card card-metrics">
+							<div class="card-metrics__number">
+								<p>5000+</p>
+							</div>
+							<div class="card-metrics__text">
+								<p>Total Listings in the System</p>
+							</div>
+						</div>
+						<div class="metrics__card card-metrics">
+							<div class="card-metrics__number">
+								<p>1000+</p>
+							</div>
+							<div class="card-metrics__text">
+								<p>Active Listings</p>
+							</div>
+						</div>
+						<div class="metrics__card card-metrics">
+							<div class="card-metrics__number">
+								<p>30+</p>
+							</div>
+							<div class="card-metrics__text">
+								<p>Articles in the Blog</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="locations">
+				<div class="locations__container">
+					<h2 class="locations__title title">Featured Locations</h2>
+					<div class="locations__cards">
+						<div class="locations__card locations__card--1">
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/01-min.jpg" />
+								<img src="img/locations/01.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Kandy</span>
+						</div>
+						<div class="locations__card locations__card--2">
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/02-min.jpg" />
+								<img src="img/locations/02.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Anuradhapura</span>
+						</div>
+						<div class="locations__card locations__card--3">
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/03-min.jpg" />
+								<img src="img/locations/03.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Gampaha</span>
+						</div>
+						<div class="locations__card locations__card--4">
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/04-min.jpg" />
+								<img src="img/locations/04.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Badulla</span>
+						</div>
+						<div class="locations__card locations__card--5">
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/05-min.jpg" />
+								<img src="img/locations/05.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Jaffna</span>
+						</div>
+						<div class="locations__card locations__card--6">
+							<!-- <picture><source srcset="img/locations/06.webp" type="image/webp"><img src="img/locations/06.jpg" alt="location" /></picture> -->
+							<picture>
+								<source media="(max-width: 480px)" srcset="img/locations/03-min.jpg" />
+								<img src="img/locations/06.jpg" alt="article" />
+							</picture>
+							<span class="locations__name">Colombo</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="articles">
+				<div class="articles__container">
+					<h2 class="articles__title title">Important Articles</h2>
+					<div class="articles__body">
+						<article class="articles__main main-articles">
+							<a href="#" class="main-articles__image">
+								<picture><source srcset="img/articles/big-image.webp" type="image/webp"><img src="img/articles/big-image.jpg" alt="article" /></picture>
+							</a>
+							<div class="main-articles__content">
+								<span class="main-articles__date">February 4, 2023</span>
+								<h3 class="main-articles__title">
+									<a href="#"> Top Tips for Finding the Perfect Rental </a>
+								</h3>
+								<div class="main-articles__text">
+									<p>Discover expert advice on how to find the ideal rental property that meets your needs and budget.</p>
+								</div>
+							</div>
+						</article>
+						<div class="articles__items">
+							<article class="articles__item item-articles">
+								<a href="#" class="item-articles__image">
+									<!-- <img srcset="img/articles/01-min.jpg 375w, img/articles/01.jpg 400w" alt="article" /> -->
+									<picture>
+										<source media="(max-width: 480px)" srcset="img/articles/01-min.jpg" />
+										<img src="img/articles/01.jpg" alt="article" />
+									</picture>
+								</a>
+								<div class="item-articles__content">
+									<span class="item-articles__date">May 7, 2023</span>
+									<h3 class="item-articles__title">
+										<a href="#"> Car Rental Hacks for a Smooth Journey </a>
+									</h3>
+									<div class="item-articles__text">
+										<p>Learn insider tips for getting the best deals and making the most of your rental car experience.</p>
+									</div>
+								</div>
+							</article>
+							<article class="articles__item item-articles">
+								<a href="#" class="item-articles__image">
+									<picture>
+										<source media="(max-width: 480px)" srcset="img/articles/02-min.jpg" />
+										<img src="img/articles/02.jpg" alt="article" />
+									</picture>
+								</a>
+								<div class="item-articles__content">
+									<span class="item-articles__date">April 25, 2023</span>
+									<h3 class="item-articles__title">
+										<a href="#"> Managing Your Rental Items: A Comprehensive Guide </a>
+									</h3>
+									<div class="item-articles__text">
+										<p>Get valuable insights on how to effectively manage and maintain your rented items.</p>
+									</div>
+								</div>
+							</article>
+							<article class="articles__item item-articles">
+								<a href="#" class="item-articles__image">
+									<picture>
+										<source media="(max-width: 480px)" srcset="img/articles/03-min.jpg" />
+										<img src="img/articles/03.jpg" alt="article" />
+									</picture>
+								</a>
+								<div class="item-articles__content">
+									<span class="item-articles__date">January 2, 2023</span>
+									<h3 class="item-articles__title">
+										<a href="#"> Navigating the Rental Market: Insights for New Renters </a>
+									</h3>
+									<div class="item-articles__text">
+										<p>Explore key considerations and useful tips for individuals new to the rental market.</p>
+									</div>
+								</div>
+							</article>
+							<article class="articles__item item-articles">
+								<a href="#" class="item-articles__image">
+									<picture>
+										<source media="(max-width: 480px)" srcset="img/articles/04-min.jpg" />
+										<img src="img/articles/04.jpg" alt="article" />
+									</picture>
+								</a>
+								<div class="item-articles__content">
+									<span class="item-articles__date">April 7, 2023</span>
+									<h3 class="item-articles__title">
+										<a href="#"> Maximizing Returns: Strategies for Rental Property Owners </a>
+									</h3>
+									<div class="item-articles__text">
+										<p>Learn strategies to optimize the return on investment for your rental property.</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer data-watch class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__info">
+						<div class="footer__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" /></picture>
+						</div>
+						<div class="footer__text">
+							<p>Sri Lanka's first & largest platform designed to create an online marketplace exclusively for RENT</p>
+						</div>
+						<ul class="footer__social social-footer">
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-insta"></a>
+							</li>
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-twit"></a>
+							</li>
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-youtube"></a>
+							</li>
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-facebook"></a>
+							</li>
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu menu-footer">
+						<div data-spollers="767.98" class="menu-footer__spollers">
+							<details class="menu-footer__block">
+								<summary type="button" data-spoller class="menu-footer__title">Navigation</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">About Us</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Blog</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Terms of Use</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Privacy Policy</a>
+									</li>
+								</ul>
+							</details>
+							<details class="menu-footer__block">
+								<summary type="button" data-spoller class="menu-footer__title">Featured Locations</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Kandy</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Anuradhapura</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Badulla</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Colombo</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Kaluthara</a>
+									</li>
+								</ul>
+							</details>
+							<details class="menu-footer__block">
+								<summary type="button" data-spoller class="menu-footer__title">Help</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">FAQ</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Contact Us</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__subscribe subscribe">
+						<h3 class="subscribe__title">Subscribe to Our Newsletter</h3>
+						<div class="subscribe__text">
+							<p>Stay updated with the latest listings and rental tips.</p>
+						</div>
+						<form action="#" class="subscribe__form">
+							<input data-required="email" data-error="Error" autocomplete="off" type="text" name="form[]" placeholder="Email Address" class="subscribe__input input" />
+							<button type="submit" class="subscribe__button">Subscribe</button>
+							<!--   data-error="Помилка" -->
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">© Copyright 2024. Designed and Developed by Kavinda</div>
+			<span data-goto=".hero" class="footer__arrow-top _icon-arrow-down"></span>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240519215943"></script>
+</body>
+
+</html>
