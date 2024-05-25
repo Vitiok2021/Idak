@@ -206,6 +206,12 @@ body {
   opacity: 1;
   transition: opacity 1s ease 0s
 }
+body.light__theme,
+body.light__theme .footer,
+body.light__theme .footer__copy,
+body.light__theme .header {
+  transition: color .3s ease 0s,background-color .3s ease 0s
+}
 body.dark__theme,
 body.dark__theme .author-item-feautured__name,
 body.dark__theme .footer,
@@ -222,21 +228,25 @@ body.dark__theme .subscribe__text,
 body.dark__theme .title,
 body.dark__theme .top-categoties__item {
   color: #fff;
-  background-color: #030303
+  background-color: #030303;
+  transition: color .3s ease 0s,background-color .3s ease 0s
 }
 body.dark__theme button.menu__icon span,
 body.dark__theme button.menu__icon::after,
 body.dark__theme button.menu__icon::before {
-  background-color: #fff
+  background-color: #fff;
+  transition: background-color .3s ease 0s
 }
 .menu-open body.dark__theme button.menu__icon span,
 .menu-open body.dark__theme button.menu__icon::after,
 .menu-open body.dark__theme button.menu__icon::before {
-  background-color: #000
+  background-color: #000;
+  transition: background-color .3s ease 0s
 }
 .menu-open body.dark__theme .menu__link {
   color: #030303;
-  background-color: #fff
+  background-color: #fff;
+  transition: color .3s ease 0s,background-color .3s ease 0s
 }
 .wrapper {
   min-height: 100%;
