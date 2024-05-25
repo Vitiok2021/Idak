@@ -5013,6 +5013,16 @@
             return Array.from(el.parentNode.children).indexOf(el);
         }
     }
+    document.querySelector(".header__theme").addEventListener("click", (function() {
+        const currentTheme = document.body.className;
+        if (currentTheme === "light__theme") {
+            document.body.className = "dark__theme";
+            document.querySelector(".header__theme").textContent = "Light";
+        } else {
+            document.body.className = "light__theme";
+            document.querySelector(".header__theme").textContent = "Night";
+        }
+    }));
     window["FLS"] = true;
     isWebp();
     addLoadedClass();
